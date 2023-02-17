@@ -1,0 +1,272 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    margin-bottom: 0;
+}
+
+.navBar .search {
+    position: absolute;
+    right: 0;
+    padding: 24px;
+}
+
+.list-item {
+    margin: 20px;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.list-item:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropDown-content {
+    display: flex;
+}
+
+.dropDown-content {
+    position: absolute;
+    background: black;
+    top: 64px;
+    left: 0;
+    width: 152px;
+    display: none;
+    flex-direction: column;
+}
+
+.dropDown-content a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: initial;
+}
+
+.dropDown-content a:hover {
+    background-color: aliceblue;
+    color: black
+}
+
+.banner {
+    width: 100%;
+}
+
+.the-band {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.the-band h3 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-bottom: 15px;
+
+}
+
+.the-band h5 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.the-band i {
+    color: rgb(138, 138, 138);
+}
+
+.the-band p {
+    text-align: justify;
+}
+
+.image-names {
+    display: flex;
+    justify-content: center;
+}
+
+.image-name-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.image-name-detail img {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 144px;
+}
+
+.tour-date {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-date h3 {
+    color: white;
+}
+
+.tour-date h5 {
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.tour-date .content {
+    padding: 50px;
+}
+
+.list-tour-date {
+    background-color: white;
+    list-style-type: none;
+    width: 780px;
+    padding: 0;
+}
+
+.list-tour-date li {
+    border-bottom: solid 1px #cbcbcb;
+    text-align: left;
+    padding: 10px;
+}
+
+.list-tour {
+    position: relative;
+}
+
+.sold-out {
+    background-color: red;
+    color: white;
+    width: 70px;
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    left: 104px;
+}
+
+.count-tour {
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.list-tour-available {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.tour-info img {
+    width: 100%;
+    height: 50%;
+}
+
+.tour-info-wrapper {
+    background-color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 0;
+}
+
+.tour-info-wrapper h5 {
+    color: #000;
+    font-weight: bold;
+}
+
+.tour-content {
+    padding: 10px;
+}
+
+.custom-btn {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border: none;
+}
+
+.contact {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.contact .content {
+    padding: 50px;
+}
+
+.contact h5 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.info {
+    list-style-type: none;
+    text-align: left;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 800px;
+}
+
+.sm-input {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+.lg-input {
+    width: 404px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.send-btn {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 40px;
+}

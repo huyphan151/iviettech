@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/9dfeb0c459.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navBar">
+        <ul>
+            <li class="list-item">Home</li>
+            <li class="list-item">Band</li>
+            <li class="list-item">Tour</li>
+            <li class="list-item">Contact</li>
+            <li class="list-item dropdown">
+                <span>More <i class="fas fa-caret-down"></i></span>
+                <div class="dropDown-content">
+                    <a href="">Merchandise</a>
+                    <a href="">Extras</a>
+                    <a href="">Media</a>
+                </div>
+            </li>
+            <i class="list-item search fas fa-search"></i>
+        </ul>
+    </div>
+    <div>
+        <img class="banner" src="images/ny.jpg" alt="banner">
+    </div>
+    <div class="container mt-5">
+        <div class="the-band">
+            <h3>THE BAND</h3>
+            <h5><i class="mt-5">We love music</i></h5>
+            <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="image-names">
+            <div class="image-name-detail">
+                <span>Name</span>
+                <img src="images/bandmember.jpg" alt="">
+            </div>
+
+            <div class="image-name-detail">
+                <span>Name</span>
+                <img src="images/bandmember.jpg" alt="">
+            </div>
+
+            <div class="image-name-detail">
+                <span>Name</span>
+                <img src="images/bandmember.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid tour-date">
+        <div style="box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+            <div class="content">
+                <h3>Tour Dates</h3>
+                <h5><i>Remember to book your tickets!</i></h5>
+            </div>
+            <ul class="list-tour-date">
+                <li class="list-tour">
+                    September
+                    <div class="sold-out">
+                        <span>Sold out</span>
+                    </div>
+                </li>
+                <li class="list-tour">
+                    October
+                    <div class="sold-out">
+                        <span>Sold out</span>
+                    </div>
+                </li>
+                <li class="list-tour-available">
+                    <span>November</span>
+                    <div class="count-tour">
+                        3
+                    </div>
+                </li>
+            </ul>
+            <div class="tour-info">
+                <div style="margin: 0; display: flex; justify-content: space-between;">
+                    <div class="tour-info-wrapper">
+                        <img src="images/newyork.jpg" alt="">
+                        <div class="tour-content">
+                            <h5>New York</h5>
+                            <p>Fri 27 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="custom-btn" type="button">Buy Tickets</button>
+                        </div>
+                        
+                    </div>
+                    <div class="tour-info-wrapper">
+                        <img src="images/paris.jpg" alt="">
+                        <div class="tour-content">
+                            <h5>Paris</h5>
+                            <p>Fri 27 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="custom-btn" type="button">Buy Tickets</button>
+                        </div>
+                        
+                    </div>
+                    <div class="tour-info-wrapper">
+                        <img src="images/sanfran.jpg" alt="">
+                        <div class="tour-content">
+                            <h5>San Francisco</h5>
+                            <p>Fri 27 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="custom-btn" type="button">Buy Tickets</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contact">
+        <div style="box-sizing: border-box; display: flex; flex-direction: column; align-items: center; padding-bottom: 50px;">
+            <div>
+                <div class="content">
+                    <h3>CONTACT</h3>
+                    <h5><i>Fan? Drop a note!</i></h5>
+                </div>
+                <div class="info-wrapper">
+                    <ul class="info">
+                        <li>
+                            <i class="fa fa-home"></i><span> Chicago, US</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i><span> Phone: +00 151515</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i><span> Email: mail@mail.com</span>
+                        </li>
+                    </ul>
+                    <div>
+                        <form action="">
+                            <div>
+                                <div style="margin-bottom: 20px;">
+                                    <input placeholder="Name" type="text" class="sm-input">
+                                    <input placeholder="Email" type="text" name="" id="" class="sm-input">
+                                </div>
+            
+                                <input placeholder="Message" type="text" name="" id="" class="lg-input">
+                            </div>
+                            <div style="display: flex; justify-content: end;">
+                                <button class="send-btn">
+                                    Send
+                                </button>
+                            </div>
+    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
