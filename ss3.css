@@ -1,0 +1,31 @@
+html, body {
+    width: 100%;
+    margin: 10px 10px;
+    font-family: sans-serif;
+}
+
+.logo-header {
+    float: left;
+    width: 100px;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    color: rgb(110, 74, 6);
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px orange;
+}
+
+.title h3 {
+    font-size: 20px;
+    color: rgb(9, 202, 138);
+}
